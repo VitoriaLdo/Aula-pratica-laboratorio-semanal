@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site de Noticias</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/login.js" defer></script>
 </head>
 <body>
     <header>
         <div class="logo">W</div>
         <h1 class="titulo">Login</h1>
     </header>
+
     <div class="container">
-        <form>
+        <form class="formulario">
+            <h2>Entrar</h2>
             <input id="email" type="text" placeholder="Informe seu e-mail:">
-            <input id="senha" type="passeword" placeholder="Informe sua senha:">
+            <input id="senha" type="password" placeholder="Informe sua senha:">
             <button onclick="verificarCredenciais(); return false;">
                 Entrar
             </button>
         </form>
     </div>
+
+    <footer>Meu Site de Noticias</footer>
 </body>
 </html>
