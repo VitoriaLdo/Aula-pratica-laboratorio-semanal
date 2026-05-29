@@ -1,0 +1,1 @@
+import { dados_das_noticias } from"./bd.js";
